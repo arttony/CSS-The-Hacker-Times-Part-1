@@ -38,11 +38,22 @@ a{
     color: #777;
 }
 
-
-
 main {
     border-bottom: 1px solid #eee;
 }
-span{
-    display: inline-block;
+
+main p{
+    padding: 0 6em 0 1em;
+    text-align: justify;
 }
+
+.more-articles section{
+    display: inline-block;
+    width: 300px;
+    margin: 0 3em 0 0;
+}
+
+h4{
+    font-family: "Roboto Slab"
+}
+

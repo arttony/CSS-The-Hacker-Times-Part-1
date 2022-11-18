@@ -21,8 +21,8 @@ main h2{
 /*nav*/
 ul{
     list-style-type: none;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee
 }
 
 li{
@@ -39,7 +39,7 @@ a{
 }
 
 main {
-    border-bottom: 1px solid #eee;
+    border-bottom: 2px solid #eee;
 }
 
 main p{

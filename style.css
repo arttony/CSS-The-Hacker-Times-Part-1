@@ -19,11 +19,19 @@ main h2{
 }
 
 /*nav*/
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
 ul{
     list-style-type: none;
     border-top: 2px solid #eee;
-    border-bottom: 2px solid #eee
-}
+    border-bottom: 2px solid #eee;
+    
+}   
+
 
 li{
     display: inline-block;
@@ -31,13 +39,14 @@ li{
     text-decoration: none;
     margin: 0 0 0 -0.5em;
     padding: 0.5em;
-}   
+}    
 
 a{
     text-decoration: none;
     color: #777;
 }
 
+/*main*/
 main {
     border-bottom: 2px solid #eee;
 }
@@ -47,12 +56,14 @@ main p{
     text-align: justify;
 }
 
+/*extra articles*/
 .more-articles section{
     display: inline-block;
     width: 300px;
     margin: 0 3em 0 0;
 }
 
+/*author name*/
 h4{
     font-family: "Roboto Slab"
 }
